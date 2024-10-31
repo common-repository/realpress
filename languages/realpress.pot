@@ -1,0 +1,3010 @@
+# Copyright (C) 2022 ThimPress
+# This file is distributed under the same license as the RealPress plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: RealPress 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/realpress\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2022-08-25T04:30:10+03:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.6.0\n"
+"X-Domain: realpress\n"
+
+#. Plugin Name of the plugin
+msgid "RealPress"
+msgstr ""
+
+#. Description of the plugin
+msgid "An useful real estate plugin"
+msgstr ""
+
+#. Author of the plugin
+msgid "ThimPress"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://thimpress.com/"
+msgstr ""
+
+#: app/Controllers/BecomeAgentController.php:73
+msgid "Pending Request <span class=\"count\">(%s)</span>"
+msgstr ""
+
+#: app/Controllers/BecomeAgentController.php:87
+msgctxt "pending-request"
+msgid "Accept"
+msgstr ""
+
+#: app/Controllers/BecomeAgentController.php:91
+msgctxt "pending-request"
+msgid "Deny"
+msgstr ""
+
+#: app/Controllers/BecomeAgentController.php:132
+msgid "You must login to submit become an agent"
+msgstr ""
+
+#: app/Controllers/BecomeAgentController.php:138
+#: app/Controllers/SetupWizardController.php:77
+msgid "You don't have permission to do it"
+msgstr ""
+
+#: app/Controllers/BecomeAgentController.php:142
+msgid "The first name is required"
+msgstr ""
+
+#: app/Controllers/BecomeAgentController.php:146
+msgid "The last name is required"
+msgstr ""
+
+#: app/Controllers/BecomeAgentController.php:150
+msgid "The phone number is required"
+msgstr ""
+
+#: app/Controllers/BecomeAgentController.php:154
+#: app/Controllers/ContactFormController.php:64
+msgid "Please accept Terms and Conditions"
+msgstr ""
+
+#: app/Controllers/BecomeAgentController.php:164
+msgid "Thank you! You became an agent"
+msgstr ""
+
+#: app/Controllers/BecomeAgentController.php:169
+msgid "Thank you! Your request has been sent"
+msgstr ""
+
+#: app/Controllers/CommentController.php:43
+msgid "Property Reviews"
+msgstr ""
+
+#: app/Controllers/CommentController.php:44
+#: views/frontend/classic/agent-detail/agent-property-comment-group.php:71
+msgid "Agent Comments"
+msgstr ""
+
+#: app/Controllers/CommentController.php:131
+msgid "There are no reviews yet."
+msgstr ""
+
+#: app/Controllers/CommentController.php:133
+msgid "There are no comments yet."
+msgstr ""
+
+#: app/Controllers/CommentController.php:170
+msgid "You must login to submit review"
+msgstr ""
+
+#: app/Controllers/CommentController.php:174
+msgid "The rating is required"
+msgstr ""
+
+#: app/Controllers/CommentController.php:179
+msgid "The review content is required"
+msgstr ""
+
+#: app/Controllers/CommentController.php:182
+msgid "The comment content is required"
+msgstr ""
+
+#: app/Controllers/CommentController.php:208
+msgid "You've already posted review"
+msgstr ""
+
+#: app/Controllers/CommentController.php:210
+msgid "You've already posted comment"
+msgstr ""
+
+#: app/Controllers/CommentController.php:238
+msgid "Review has been submitted successfully! "
+msgstr ""
+
+#: app/Controllers/CommentController.php:245
+msgid "Comment has been submitted successfully! "
+msgstr ""
+
+#: app/Controllers/ContactFormController.php:40
+msgid "The email target is required"
+msgstr ""
+
+#: app/Controllers/ContactFormController.php:44
+msgid "The name field is required"
+msgstr ""
+
+#: app/Controllers/ContactFormController.php:48
+msgid "The phone field is required"
+msgstr ""
+
+#: app/Controllers/ContactFormController.php:52
+msgid "The email field required"
+msgstr ""
+
+#: app/Controllers/ContactFormController.php:56
+msgid "The email is invalid"
+msgstr ""
+
+#: app/Controllers/ContactFormController.php:60
+msgid "The message field is required"
+msgstr ""
+
+#: app/Controllers/ContactFormController.php:82
+msgid "Send email successfully!"
+msgstr ""
+
+#: app/Controllers/ContactFormController.php:84
+msgid "Server Error: Make sure Email function working on your server!"
+msgstr ""
+
+#: app/Controllers/ContactFormController.php:130
+msgid " New message sent by %s using agent contact form"
+msgstr ""
+
+#: app/Controllers/ContactFormController.php:139
+msgid " You have received new message from: %s"
+msgstr ""
+
+#: app/Controllers/ContactFormController.php:143
+msgid " Phone: %s"
+msgstr ""
+
+#: app/Controllers/ContactFormController.php:148
+msgid " Email: %s"
+msgstr ""
+
+#: app/Controllers/ContactFormController.php:153
+msgid " Message: %s"
+msgstr ""
+
+#: app/Controllers/PageController.php:53
+msgid "Could not create page"
+msgstr ""
+
+#: app/Controllers/PageController.php:57
+msgid "Create page successfully"
+msgstr ""
+
+#: app/Controllers/PropertyController.php:61
+msgid "Thumbnail"
+msgstr ""
+
+#: app/Controllers/PropertyController.php:128
+#: app/Controllers/WishListController.php:118
+msgid "No properties found"
+msgstr ""
+
+#: app/Controllers/PropertyController.php:144
+#: app/Controllers/UserController.php:118
+#: app/Controllers/WishListController.php:133
+msgid "Showing only one result"
+msgstr ""
+
+#: app/Controllers/PropertyController.php:147
+#: app/Controllers/WishListController.php:136
+msgid "Showing last property of %s results"
+msgstr ""
+
+#: app/Controllers/PropertyController.php:150
+#: app/Controllers/UserController.php:124
+#: app/Controllers/WishListController.php:139
+msgid "Showing %1$s of %2$s results"
+msgstr ""
+
+#: app/Controllers/SetupWizardController.php:97
+msgid "Congratulations! The demo have been imported successfully! <a href=\"%s\">View All Properties</a>"
+msgstr ""
+
+#: app/Controllers/SetupWizardController.php:179
+msgid "Widget area does not exist in theme (using Inactive)"
+msgstr ""
+
+#: app/Controllers/SetupWizardController.php:203
+msgid "Site does not support widget"
+msgstr ""
+
+#: app/Controllers/SetupWizardController.php:226
+msgid "Widget already exists"
+msgstr ""
+
+#: app/Controllers/SetupWizardController.php:295
+msgid "Imported"
+msgstr ""
+
+#: app/Controllers/SetupWizardController.php:298
+msgid "Imported to Inactive"
+msgstr ""
+
+#: app/Controllers/SetupWizardController.php:307
+msgid "No Title"
+msgstr ""
+
+#: app/Controllers/SetupWizardController.php:502
+#: config/realpress-setting.php:53
+msgid "Currency"
+msgstr ""
+
+#: app/Controllers/SetupWizardController.php:505
+#: config/realpress-setting.php:104
+msgid "Page"
+msgstr ""
+
+#: app/Controllers/SetupWizardController.php:508
+#: config/widgets/terms.php:43
+msgid "Slug"
+msgstr ""
+
+#: app/Controllers/SetupWizardController.php:511
+#: config/email-settings.php:10
+#: config/email-settings.php:22
+#: config/email-settings.php:51
+#: config/email-settings.php:87
+#: config/email-settings.php:115
+#: config/email-settings.php:151
+#: config/email-settings.php:187
+#: config/email-settings.php:222
+#: config/email-settings.php:255
+#: config/email-settings.php:291
+#: config/email-settings.php:327
+#: views/frontend/classic/shortcodes/contact-form.php:27
+msgid "Email"
+msgstr ""
+
+#: app/Controllers/SetupWizardController.php:514
+#: config/realpress-setting.php:201
+msgid "Property"
+msgstr ""
+
+#: app/Controllers/SetupWizardController.php:517
+#: views/admin/setup/steps/finish.php:13
+msgid "Finish"
+msgstr ""
+
+#: app/Controllers/UserController.php:94
+msgid "No Agents found"
+msgstr ""
+
+#: app/Controllers/UserController.php:121
+msgid "Showing last Agent of %s results"
+msgstr ""
+
+#: app/Controllers/UserController.php:184
+#: config/property-metabox.php:267
+#: config/realpress-setting.php:268
+msgid "Agent"
+msgstr ""
+
+#: app/Helpers/Template.php:137
+msgid "Path %s not exists"
+msgstr ""
+
+#: app/Helpers/YelpNearBy.php:15
+msgid "Please setup API in setting"
+msgstr ""
+
+#: app/MetaBoxes/TermMeta.php:96
+msgid "View"
+msgstr ""
+
+#: app/MetaBoxes/TermMeta.php:116
+msgid "Action"
+msgstr ""
+
+#: app/Register/BlockTemplate/BlockTemplateHandle.php:190
+msgid "RealPress Category"
+msgstr ""
+
+#: app/Widgets/AgentSearch.php:18
+msgid "(RealPress) Agent Search"
+msgstr ""
+
+#: app/Widgets/ContactForm.php:20
+msgid "(RealPress) Contact Form"
+msgstr ""
+
+#: app/Widgets/ListProperty.php:17
+msgid "(RealPress) Property List"
+msgstr ""
+
+#: app/Widgets/MortgageCalculator.php:18
+msgid "(RealPress) Mortgage Calculator"
+msgstr ""
+
+#: app/Widgets/Terms.php:16
+msgid "(RealPress) Terms"
+msgstr ""
+
+#: config/agent-profile.php:14
+msgid "Profile Info"
+msgstr ""
+
+#: config/agent-profile.php:19
+#: views/frontend/classic/agent-detail/agent-profile.php:55
+msgid "Position"
+msgstr ""
+
+#: config/agent-profile.php:26
+msgid "Profile Picture"
+msgstr ""
+
+#: config/agent-profile.php:33
+msgid "The maximum dimension is %1$s x %2$s px"
+msgstr ""
+
+#: config/agent-profile.php:48
+msgid "Mobile Number"
+msgstr ""
+
+#: config/agent-profile.php:55
+msgid "Company Name"
+msgstr ""
+
+#: config/agent-profile.php:63
+msgid "Company URL"
+msgstr ""
+
+#: config/agent-profile.php:70
+msgid "Office Phone Number"
+msgstr ""
+
+#: config/agent-profile.php:77
+#: views/frontend/classic/agent-detail/agent-profile.php:39
+msgid "Tax Number"
+msgstr ""
+
+#: config/agent-profile.php:84
+#: views/frontend/classic/agent-detail/agent-profile.php:47
+#: views/frontend/classic/single-property/section/address-location.php:20
+#: views/frontend/classic/single-property/section/address-location.php:23
+msgid "Address"
+msgstr ""
+
+#: config/agent-profile.php:91
+msgid "License"
+msgstr ""
+
+#: config/agent-profile.php:98
+msgid "Social Network"
+msgstr ""
+
+#: config/agent-profile.php:103
+msgid "Facebook"
+msgstr ""
+
+#: config/agent-profile.php:110
+msgid "Twitter"
+msgstr ""
+
+#: config/agent-profile.php:117
+msgid "Google-plus"
+msgstr ""
+
+#: config/agent-profile.php:124
+msgid "Instagram"
+msgstr ""
+
+#: config/agent-profile.php:131
+msgid "Pinterest"
+msgstr ""
+
+#: config/agent-profile.php:138
+msgid "Linkedin"
+msgstr ""
+
+#: config/agent-profile.php:145
+msgid "Skype"
+msgstr ""
+
+#: config/agent-profile.php:152
+msgid "Whatsapp"
+msgstr ""
+
+#: config/comment-metabox.php:8
+msgid "Review Details"
+msgstr ""
+
+#: config/comment-metabox.php:18
+msgid "Select a property"
+msgstr ""
+
+#: config/comment-metabox.php:20
+#: views/frontend/classic/single-property/reviews/form.php:16
+msgid "1 Star - Poor"
+msgstr ""
+
+#: config/comment-metabox.php:21
+#: views/frontend/classic/single-property/reviews/form.php:17
+msgid "2 Star - Fair"
+msgstr ""
+
+#: config/comment-metabox.php:22
+#: views/frontend/classic/single-property/reviews/form.php:18
+msgid "3 Star - Average"
+msgstr ""
+
+#: config/comment-metabox.php:23
+#: views/frontend/classic/single-property/reviews/form.php:19
+msgid "4 Star - Good"
+msgstr ""
+
+#: config/comment-metabox.php:24
+#: views/frontend/classic/single-property/reviews/form.php:21
+msgid "5 Star - Excellent"
+msgstr ""
+
+#: config/currency.php:6
+msgid "Afghan afghani"
+msgstr ""
+
+#: config/currency.php:7
+msgid "Albanian lek"
+msgstr ""
+
+#: config/currency.php:8
+msgid "Algerian dinar"
+msgstr ""
+
+#: config/currency.php:9
+msgid "Euro"
+msgstr ""
+
+#: config/currency.php:10
+msgid "Angolan kwanza"
+msgstr ""
+
+#: config/currency.php:11
+msgid "East Caribbean dollar"
+msgstr ""
+
+#: config/currency.php:12
+msgid "Argentine peso"
+msgstr ""
+
+#: config/currency.php:13
+msgid "Armenian dram"
+msgstr ""
+
+#: config/currency.php:14
+msgid "Aruban florin"
+msgstr ""
+
+#: config/currency.php:15
+msgid "Australian dollar"
+msgstr ""
+
+#: config/currency.php:16
+msgid "Azerbaijani manat"
+msgstr ""
+
+#: config/currency.php:17
+msgid "Bahamian dollar"
+msgstr ""
+
+#: config/currency.php:18
+msgid "Bahraini dinar"
+msgstr ""
+
+#: config/currency.php:19
+msgid "Bangladeshi taka"
+msgstr ""
+
+#: config/currency.php:20
+msgid "Barbadian dollar"
+msgstr ""
+
+#: config/currency.php:21
+msgid "Belarusian ruble"
+msgstr ""
+
+#: config/currency.php:22
+msgid "Belizean dollar"
+msgstr ""
+
+#: config/currency.php:23
+msgid "West African CFA franc"
+msgstr ""
+
+#: config/currency.php:24
+msgid "Bermudian dollar"
+msgstr ""
+
+#: config/currency.php:25
+msgid "Bhutanese ngultrum"
+msgstr ""
+
+#: config/currency.php:26
+msgid "Bolivian boliviano"
+msgstr ""
+
+#: config/currency.php:27
+msgid "US dollar"
+msgstr ""
+
+#: config/currency.php:28
+msgid "Bosnia and Herzegovina convertible mark"
+msgstr ""
+
+#: config/currency.php:29
+msgid "Botswana pula"
+msgstr ""
+
+#: config/currency.php:30
+msgid "Brazilian real"
+msgstr ""
+
+#: config/currency.php:31
+msgid "Brunei dollar"
+msgstr ""
+
+#: config/currency.php:32
+msgid "Bulgarian lev"
+msgstr ""
+
+#: config/currency.php:33
+msgid "Burmese kyat"
+msgstr ""
+
+#: config/currency.php:34
+msgid "Burundian franc"
+msgstr ""
+
+#: config/currency.php:35
+msgid "Cambodian riel"
+msgstr ""
+
+#: config/currency.php:36
+msgid "Central African CFA franc"
+msgstr ""
+
+#: config/currency.php:37
+msgid "Canadian dollar"
+msgstr ""
+
+#: config/currency.php:38
+msgid "Cape Verdean escudo"
+msgstr ""
+
+#: config/currency.php:39
+msgid "Cayman Islands dollar"
+msgstr ""
+
+#: config/currency.php:40
+msgid "Chilean peso"
+msgstr ""
+
+#: config/currency.php:41
+msgid "Chinese renminbi"
+msgstr ""
+
+#: config/currency.php:42
+msgid "Colombian peso"
+msgstr ""
+
+#: config/currency.php:43
+msgid "Comorian franc"
+msgstr ""
+
+#: config/currency.php:44
+msgid "Congolese franc"
+msgstr ""
+
+#: config/currency.php:45
+msgid "New Zealand dollar"
+msgstr ""
+
+#: config/currency.php:46
+msgid "Costa Rican colón"
+msgstr ""
+
+#: config/currency.php:47
+msgid "Croatian kuna"
+msgstr ""
+
+#: config/currency.php:48
+msgid "Cuban peso"
+msgstr ""
+
+#: config/currency.php:49
+msgid "Netherlands Antilles guilder"
+msgstr ""
+
+#: config/currency.php:50
+msgid "Czech koruna"
+msgstr ""
+
+#: config/currency.php:51
+msgid "Danish krone"
+msgstr ""
+
+#: config/currency.php:52
+msgid "Djiboutian franc"
+msgstr ""
+
+#: config/currency.php:53
+msgid "Dominican peso"
+msgstr ""
+
+#: config/currency.php:54
+msgid "Egyptian pound"
+msgstr ""
+
+#: config/currency.php:55
+msgid "Salvadoran colón"
+msgstr ""
+
+#: config/currency.php:56
+msgid "Eritrean nakfa"
+msgstr ""
+
+#: config/currency.php:57
+msgid "Ethiopian birr"
+msgstr ""
+
+#: config/currency.php:58
+msgid "Falkland Islands pound"
+msgstr ""
+
+#: config/currency.php:59
+msgid "Fijian dollar"
+msgstr ""
+
+#: config/currency.php:60
+msgid "CFP franc"
+msgstr ""
+
+#: config/currency.php:61
+msgid "Gambian dalasi"
+msgstr ""
+
+#: config/currency.php:62
+msgid "Georgian lari"
+msgstr ""
+
+#: config/currency.php:63
+msgid "Ghanian cedi"
+msgstr ""
+
+#: config/currency.php:64
+msgid "Gibraltar pound"
+msgstr ""
+
+#: config/currency.php:65
+msgid "Guatemalan quetzal"
+msgstr ""
+
+#: config/currency.php:66
+msgid "British pound"
+msgstr ""
+
+#: config/currency.php:67
+msgid "Guinean franc"
+msgstr ""
+
+#: config/currency.php:68
+msgid "Guyanese dollar"
+msgstr ""
+
+#: config/currency.php:69
+msgid "Haitian gourde"
+msgstr ""
+
+#: config/currency.php:70
+msgid "Honduran lempira"
+msgstr ""
+
+#: config/currency.php:71
+msgid "Hong Kong dollar"
+msgstr ""
+
+#: config/currency.php:72
+msgid "Hungarian forint"
+msgstr ""
+
+#: config/currency.php:73
+msgid "Icelandic króna"
+msgstr ""
+
+#: config/currency.php:74
+msgid "Indian rupee"
+msgstr ""
+
+#: config/currency.php:75
+msgid "Indonesian rupiah"
+msgstr ""
+
+#: config/currency.php:76
+msgid "Iranian rial"
+msgstr ""
+
+#: config/currency.php:77
+msgid "Iraqi dinar"
+msgstr ""
+
+#: config/currency.php:78
+msgid "Israeli new sheqel"
+msgstr ""
+
+#: config/currency.php:79
+msgid "Jamaican dollar"
+msgstr ""
+
+#: config/currency.php:80
+msgid "Japanese yen "
+msgstr ""
+
+#: config/currency.php:81
+msgid "Jordanian dinar"
+msgstr ""
+
+#: config/currency.php:82
+msgid "Kazakhstani tenge"
+msgstr ""
+
+#: config/currency.php:83
+msgid "Kenyan shilling"
+msgstr ""
+
+#: config/currency.php:84
+msgid "North Korean won"
+msgstr ""
+
+#: config/currency.php:85
+msgid "Kuwaiti dinar"
+msgstr ""
+
+#: config/currency.php:86
+msgid "Kyrgyzstani som"
+msgstr ""
+
+#: config/currency.php:87
+msgid "South Korean won"
+msgstr ""
+
+#: config/currency.php:88
+msgid "Lao kip"
+msgstr ""
+
+#: config/currency.php:89
+msgid "Latvian lats"
+msgstr ""
+
+#: config/currency.php:90
+msgid "Lebanese pound"
+msgstr ""
+
+#: config/currency.php:91
+msgid "Lesotho loti"
+msgstr ""
+
+#: config/currency.php:92
+msgid "Liberian dollar"
+msgstr ""
+
+#: config/currency.php:93
+#: config/currency.php:164
+msgid "Libyan dinar"
+msgstr ""
+
+#: config/currency.php:94
+msgid "Swiss franc"
+msgstr ""
+
+#: config/currency.php:95
+msgid "Lithuanian litas"
+msgstr ""
+
+#: config/currency.php:96
+msgid "Macanese pataca"
+msgstr ""
+
+#: config/currency.php:97
+msgid "Macedonian denar"
+msgstr ""
+
+#: config/currency.php:98
+msgid "Malagasy ariary"
+msgstr ""
+
+#: config/currency.php:99
+msgid "Malawian kwacha"
+msgstr ""
+
+#: config/currency.php:100
+msgid "Malaysian ringgit"
+msgstr ""
+
+#: config/currency.php:101
+msgid "Maldivian rufiyaa"
+msgstr ""
+
+#: config/currency.php:102
+msgid "Mauritanian ouguiya"
+msgstr ""
+
+#: config/currency.php:103
+msgid "Mauritian rupee"
+msgstr ""
+
+#: config/currency.php:104
+msgid "Mexican peso"
+msgstr ""
+
+#: config/currency.php:105
+msgid "Moldovan leu"
+msgstr ""
+
+#: config/currency.php:106
+msgid "Mongolian tugrik"
+msgstr ""
+
+#: config/currency.php:107
+msgid "Moroccan dirham"
+msgstr ""
+
+#: config/currency.php:108
+msgid "Mozambican metical"
+msgstr ""
+
+#: config/currency.php:109
+msgid "Namibian dollar"
+msgstr ""
+
+#: config/currency.php:110
+msgid "Nepalese rupee"
+msgstr ""
+
+#: config/currency.php:111
+msgid "Nicaraguan córdoba"
+msgstr ""
+
+#: config/currency.php:112
+msgid "Nigerian naira"
+msgstr ""
+
+#: config/currency.php:113
+msgid "Norwegian krone"
+msgstr ""
+
+#: config/currency.php:114
+msgid "Omani rial"
+msgstr ""
+
+#: config/currency.php:115
+msgid "Pakistani rupee"
+msgstr ""
+
+#: config/currency.php:116
+msgid "Panamanian balboa"
+msgstr ""
+
+#: config/currency.php:117
+msgid "Papua New Guinea kina"
+msgstr ""
+
+#: config/currency.php:118
+msgid "Paraguayan guarani"
+msgstr ""
+
+#: config/currency.php:119
+msgid "Peruvian nuevo sol"
+msgstr ""
+
+#: config/currency.php:120
+msgid "Philippine peso"
+msgstr ""
+
+#: config/currency.php:121
+msgid "Polish zloty"
+msgstr ""
+
+#: config/currency.php:122
+msgid "Qatari riyal"
+msgstr ""
+
+#: config/currency.php:123
+msgid "Romanian leu"
+msgstr ""
+
+#: config/currency.php:124
+msgid "Russian ruble"
+msgstr ""
+
+#: config/currency.php:125
+msgid "Rwandan franc"
+msgstr ""
+
+#: config/currency.php:126
+msgid "Samoan tālā"
+msgstr ""
+
+#: config/currency.php:127
+msgid "São Tomé and Príncipe dobra"
+msgstr ""
+
+#: config/currency.php:128
+msgid "Saudi riyal"
+msgstr ""
+
+#: config/currency.php:129
+msgid "Serbian dinar"
+msgstr ""
+
+#: config/currency.php:130
+msgid "Seychellois rupee"
+msgstr ""
+
+#: config/currency.php:131
+msgid "Sierra Leonean leone"
+msgstr ""
+
+#: config/currency.php:132
+msgid "Singapore dollar"
+msgstr ""
+
+#: config/currency.php:133
+msgid "Solomon Islands dollar"
+msgstr ""
+
+#: config/currency.php:134
+msgid "Somali shilling"
+msgstr ""
+
+#: config/currency.php:135
+msgid "South African rand"
+msgstr ""
+
+#: config/currency.php:136
+msgid "Sri Lankan rupee"
+msgstr ""
+
+#: config/currency.php:137
+msgid "St. Helena pound"
+msgstr ""
+
+#: config/currency.php:138
+msgid "Sudanese pound"
+msgstr ""
+
+#: config/currency.php:139
+msgid "Surinamese dollar"
+msgstr ""
+
+#: config/currency.php:140
+msgid "Swazi lilangeni"
+msgstr ""
+
+#: config/currency.php:141
+msgid "Swedish krona"
+msgstr ""
+
+#: config/currency.php:142
+msgid "Syrian pound"
+msgstr ""
+
+#: config/currency.php:143
+msgid "New Taiwan dollar"
+msgstr ""
+
+#: config/currency.php:144
+msgid "Tajikistani somoni"
+msgstr ""
+
+#: config/currency.php:145
+msgid "Tanzanian shilling"
+msgstr ""
+
+#: config/currency.php:146
+msgid "Thai baht "
+msgstr ""
+
+#: config/currency.php:147
+msgid "Tongan pa’anga"
+msgstr ""
+
+#: config/currency.php:148
+msgid "Trinidad and Tobago dollar"
+msgstr ""
+
+#: config/currency.php:149
+msgid "Tunisian dinar"
+msgstr ""
+
+#: config/currency.php:150
+msgid "Turkish lira"
+msgstr ""
+
+#: config/currency.php:151
+msgid "Turkmenistani manat"
+msgstr ""
+
+#: config/currency.php:152
+msgid "Ugandan shilling"
+msgstr ""
+
+#: config/currency.php:153
+msgid "Ukrainian hryvnia"
+msgstr ""
+
+#: config/currency.php:154
+msgid "United Arab Emirates dirham"
+msgstr ""
+
+#: config/currency.php:155
+msgid "Uruguayan peso"
+msgstr ""
+
+#: config/currency.php:156
+msgid "Uzbekistani som"
+msgstr ""
+
+#: config/currency.php:157
+msgid "Vanuatu vatu"
+msgstr ""
+
+#: config/currency.php:158
+msgid "Venezuelan bolivar"
+msgstr ""
+
+#: config/currency.php:159
+msgid "Vietnamese dong"
+msgstr ""
+
+#: config/currency.php:160
+msgid "Yemeni rial"
+msgstr ""
+
+#: config/currency.php:161
+msgid "Zambian kwacha"
+msgstr ""
+
+#: config/currency.php:162
+msgid "Zimbabwean dollar"
+msgstr ""
+
+#: config/currency.php:163
+msgid "Jersey pound"
+msgstr ""
+
+#: config/email-settings.php:16
+msgid "Register new user"
+msgstr ""
+
+#: config/email-settings.php:24
+#: config/email-settings.php:52
+#: config/email-settings.php:88
+#: config/email-settings.php:116
+#: config/email-settings.php:152
+#: config/email-settings.php:188
+#: config/email-settings.php:223
+#: config/email-settings.php:256
+#: config/email-settings.php:292
+#: config/email-settings.php:328
+#: config/property-metabox.php:275
+#: config/property-metabox.php:412
+#: config/realpress-setting.php:409
+#: config/realpress-setting.php:492
+#: config/realpress-setting.php:514
+#: config/realpress-setting.php:568
+msgid "Enable/Disable"
+msgstr ""
+
+#: config/email-settings.php:30
+#: config/email-settings.php:58
+#: config/email-settings.php:94
+#: config/email-settings.php:122
+#: config/email-settings.php:158
+#: config/email-settings.php:194
+#: config/email-settings.php:229
+#: config/email-settings.php:262
+#: config/email-settings.php:298
+#: config/email-settings.php:334
+msgid "Subject"
+msgstr ""
+
+#: config/email-settings.php:31
+msgid "[{{site_title}}] New User Registration."
+msgstr ""
+
+#: config/email-settings.php:36
+#: config/email-settings.php:64
+#: config/email-settings.php:100
+#: config/email-settings.php:130
+#: config/email-settings.php:166
+#: config/email-settings.php:202
+#: config/email-settings.php:237
+#: config/email-settings.php:270
+#: config/email-settings.php:306
+#: config/email-settings.php:342
+msgid "Content"
+msgstr ""
+
+#: config/email-settings.php:37
+#: config/email-settings.php:65
+#: config/email-settings.php:271
+#: config/email-settings.php:307
+#: config/email-settings.php:343
+msgid "{{user_name}}, {{site_url}}, {{site_title}}, {{admin_email}}"
+msgstr ""
+
+#: config/email-settings.php:80
+msgid "Request review property of Agent"
+msgstr ""
+
+#: config/email-settings.php:95
+msgid "[{{site_title}}] New Property Submission."
+msgstr ""
+
+#: config/email-settings.php:101
+#: config/email-settings.php:131
+#: config/email-settings.php:167
+#: config/email-settings.php:203
+msgid "{{user_name}}, {{site_url}}, {{site_title}}, {{admin_email}}, {{post_title}}, {{post_permalink}}"
+msgstr ""
+
+#: config/email-settings.php:144
+msgid "Reject property of Agent"
+msgstr ""
+
+#: config/email-settings.php:180
+msgid "Approved property of Agent"
+msgstr ""
+
+#: config/email-settings.php:215
+msgid "Request become an Agent"
+msgstr ""
+
+#: config/email-settings.php:238
+msgid "{{user_name}}, {{site_url}}, {{site_title}}, {{admin_email}}, {{first_name}}, {{last_name}}, {{agency_name}}, {{phone_number}}, {{additional_info}}"
+msgstr ""
+
+#: config/email-settings.php:284
+msgid "Approved become an Agent"
+msgstr ""
+
+#: config/email-settings.php:320
+msgid "Reject become an Agent"
+msgstr ""
+
+#: config/property-metabox.php:21
+msgid "Property Infomation"
+msgstr ""
+
+#: config/property-metabox.php:29
+msgid "Information Property"
+msgstr ""
+
+#: config/property-metabox.php:37
+#: config/property-metabox.php:193
+#: config/realpress-setting.php:427
+#: views/frontend/classic/shortcodes/advanced-search/price.php:15
+#: views/frontend/classic/single-property/section/detail.php:17
+#: views/frontend/classic/single-property/section/floor-plans.php:44
+msgid "Price"
+msgstr ""
+
+#: config/property-metabox.php:38
+#: config/property-metabox.php:56
+#: config/property-metabox.php:74
+#: config/property-metabox.php:91
+#: config/property-metabox.php:101
+#: config/property-metabox.php:111
+#: config/property-metabox.php:129
+#: config/property-metabox.php:194
+msgid "Only digits"
+msgstr ""
+
+#: config/property-metabox.php:46
+msgid "Text After The Price"
+msgstr ""
+
+#: config/property-metabox.php:47
+msgid "For example: /monthly, /year ..."
+msgstr ""
+
+#: config/property-metabox.php:55
+#: views/frontend/classic/single-property/section/detail.php:25
+#: views/frontend/classic/single-property/section/overview.php:23
+msgid "Area Size"
+msgstr ""
+
+#: config/property-metabox.php:64
+msgid "Area Size Postfix"
+msgstr ""
+
+#: config/property-metabox.php:65
+#: config/property-metabox.php:82
+msgid "For example: Sq Ft"
+msgstr ""
+
+#: config/property-metabox.php:73
+#: views/frontend/classic/single-property/section/detail.php:29
+#: views/frontend/classic/single-property/section/overview.php:27
+msgid "Land Area Size"
+msgstr ""
+
+#: config/property-metabox.php:81
+msgid "Land Area Size Postfix"
+msgstr ""
+
+#: config/property-metabox.php:90
+#: config/property-metabox.php:209
+#: config/realpress-setting.php:431
+#: views/frontend/classic/shortcodes/advanced-search/rooms.php:9
+#: views/frontend/classic/single-property/section/detail.php:33
+#: views/frontend/classic/single-property/section/overview.php:31
+msgid "Rooms"
+msgstr ""
+
+#: config/property-metabox.php:100
+#: config/property-metabox.php:217
+#: config/realpress-setting.php:435
+#: views/frontend/classic/shortcodes/advanced-search/bedrooms.php:9
+#: views/frontend/classic/single-property/section/detail.php:37
+#: views/frontend/classic/single-property/section/floor-plans.php:36
+#: views/frontend/classic/single-property/section/overview.php:39
+msgid "Bedrooms"
+msgstr ""
+
+#: config/property-metabox.php:110
+#: config/property-metabox.php:225
+#: config/realpress-setting.php:439
+#: views/frontend/classic/shortcodes/advanced-search/bathrooms.php:9
+#: views/frontend/classic/single-property/section/floor-plans.php:40
+#: views/frontend/classic/single-property/section/overview.php:35
+msgid "Bathrooms"
+msgstr ""
+
+#: config/property-metabox.php:119
+#: views/frontend/classic/single-property/section/detail.php:21
+#: views/frontend/classic/single-property/section/overview.php:19
+msgid "Property ID"
+msgstr ""
+
+#: config/property-metabox.php:120
+msgid "For example: HZ24"
+msgstr ""
+
+#: config/property-metabox.php:128
+#: config/realpress-setting.php:443
+#: views/frontend/classic/shortcodes/advanced-search/year-built.php:9
+#: views/frontend/classic/single-property/section/detail.php:41
+#: views/frontend/classic/single-property/section/overview.php:43
+msgid "Year Built"
+msgstr ""
+
+#: config/property-metabox.php:138
+msgid "Additional details:"
+msgstr ""
+
+#: config/property-metabox.php:143
+#: config/property-metabox.php:331
+msgid "Label"
+msgstr ""
+
+#: config/property-metabox.php:147
+#: config/property-metabox.php:336
+msgid "Value"
+msgstr ""
+
+#: config/property-metabox.php:161
+msgid "Taxonomy Property"
+msgstr ""
+
+#: config/property-metabox.php:174
+msgid "Floor Plan"
+msgstr ""
+
+#: config/property-metabox.php:179
+msgid "Floor"
+msgstr ""
+
+#: config/property-metabox.php:186
+msgid "Plan title"
+msgstr ""
+
+#: config/property-metabox.php:201
+msgid "Plan Size"
+msgstr ""
+
+#: config/property-metabox.php:202
+msgid "For example: 100 Sq Ft"
+msgstr ""
+
+#: config/property-metabox.php:210
+msgid "For example: 5"
+msgstr ""
+
+#: config/property-metabox.php:218
+msgid "For example: 4"
+msgstr ""
+
+#: config/property-metabox.php:226
+msgid "For example: 2"
+msgstr ""
+
+#: config/property-metabox.php:232
+msgid "Plan Image"
+msgstr ""
+
+#: config/property-metabox.php:234
+msgid "The maximum file size is %s KB"
+msgstr ""
+
+#: config/property-metabox.php:237
+#: views/admin/fields/file-upload.php:93
+msgid "Select Image"
+msgstr ""
+
+#: config/property-metabox.php:245
+#: views/frontend/classic/single-property/section/description.php:10
+#: views/frontend/classic/single-property/section/floor-plans.php:55
+msgid "Description"
+msgstr ""
+
+#: config/property-metabox.php:270
+msgid "Choose the information do you want to display in Agent data container"
+msgstr ""
+
+#: config/property-metabox.php:285
+msgid "Author Info"
+msgstr ""
+
+#: config/property-metabox.php:289
+msgid "Agent Info"
+msgstr ""
+
+#: config/property-metabox.php:293
+msgid "Show Custom Field"
+msgstr ""
+
+#: config/property-metabox.php:303
+msgid "Select Agent"
+msgstr ""
+
+#: config/property-metabox.php:351
+msgid "Media"
+msgstr ""
+
+#: config/property-metabox.php:360
+msgid "Gallery"
+msgstr ""
+
+#: config/property-metabox.php:361
+msgid "+ ADD GALLERY"
+msgstr ""
+
+#: config/property-metabox.php:363
+msgid "You can upload maximum %1$s images. The maximum file size is %2$s KB"
+msgstr ""
+
+#: config/property-metabox.php:380
+#: views/frontend/classic/single-property/section/video.php:11
+msgid "Video"
+msgstr ""
+
+#: config/property-metabox.php:381
+#: config/property-metabox.php:394
+msgid "For example: <iframe width =\"853\" height =\"480\" src=\"#\"></iframe> "
+msgstr ""
+
+#: config/property-metabox.php:393
+#: views/frontend/classic/single-property/section/virtual-tour.php:11
+msgid "360 Virtual Tour"
+msgstr ""
+
+#: config/property-metabox.php:405
+msgid "Map"
+msgstr ""
+
+#: config/property-metabox.php:429
+msgid "Address name"
+msgstr ""
+
+#: config/property-metabox.php:436
+msgid "Lat"
+msgstr ""
+
+#: config/property-metabox.php:444
+msgid "Lon"
+msgstr ""
+
+#: config/property-type.php:11
+msgctxt "admin menu"
+msgid "RealPress Properties"
+msgstr ""
+
+#: config/property-type.php:12
+msgctxt "admin menu"
+msgid "Property"
+msgstr ""
+
+#: config/property-type.php:13
+msgctxt "admin bar"
+msgid "RealPress"
+msgstr ""
+
+#: config/property-type.php:15
+msgid "Add New"
+msgstr ""
+
+#: config/property-type.php:16
+msgid "Add New Property"
+msgstr ""
+
+#: config/property-type.php:17
+msgid "New Property"
+msgstr ""
+
+#: config/property-type.php:18
+msgid "Edit Property"
+msgstr ""
+
+#: config/property-type.php:19
+msgid "View Property"
+msgstr ""
+
+#: config/property-type.php:20
+msgid "All Properties"
+msgstr ""
+
+#: config/property-type.php:21
+msgid "Search Properties"
+msgstr ""
+
+#: config/property-type.php:22
+msgid "Parent Properties:"
+msgstr ""
+
+#: config/property-type.php:23
+msgid "No Properties found."
+msgstr ""
+
+#: config/property-type.php:24
+msgid "No Properties found in Trash."
+msgstr ""
+
+#: config/property-type.php:26
+msgid "Description."
+msgstr ""
+
+#: config/property-type.php:78
+msgctxt "taxonomy general name"
+msgid "Property Type"
+msgstr ""
+
+#: config/property-type.php:79
+msgctxt "taxonomy singular name"
+msgid "Property Type"
+msgstr ""
+
+#: config/property-type.php:80
+msgid "Search Property Type"
+msgstr ""
+
+#: config/property-type.php:81
+msgid "All Property Type"
+msgstr ""
+
+#: config/property-type.php:82
+msgid "Parent Property Type"
+msgstr ""
+
+#: config/property-type.php:83
+msgid "Parent Property Type:"
+msgstr ""
+
+#: config/property-type.php:84
+msgid "Edit Property Type"
+msgstr ""
+
+#: config/property-type.php:85
+msgid "Update Property Type"
+msgstr ""
+
+#: config/property-type.php:86
+msgid "Add New Property Type"
+msgstr ""
+
+#: config/property-type.php:87
+msgid "New Property Type Name"
+msgstr ""
+
+#: config/property-type.php:88
+msgid "Property Type"
+msgstr ""
+
+#: config/property-type.php:104
+msgctxt "taxonomy general name"
+msgid "Property Location"
+msgstr ""
+
+#: config/property-type.php:105
+msgctxt "taxonomy singular name"
+msgid "Property Location"
+msgstr ""
+
+#: config/property-type.php:106
+msgid "Search Property Location"
+msgstr ""
+
+#: config/property-type.php:107
+msgid "All Property Location"
+msgstr ""
+
+#: config/property-type.php:108
+msgid "Parent Property Location"
+msgstr ""
+
+#: config/property-type.php:109
+msgid "Parent Property Location:"
+msgstr ""
+
+#: config/property-type.php:110
+msgid "Edit Property Location"
+msgstr ""
+
+#: config/property-type.php:111
+msgid "Update Property Location"
+msgstr ""
+
+#: config/property-type.php:112
+msgid "Add New Property Location"
+msgstr ""
+
+#: config/property-type.php:113
+msgid "New Property Location Name"
+msgstr ""
+
+#: config/property-type.php:114
+msgid "Property Location"
+msgstr ""
+
+#: config/property-type.php:130
+msgctxt "taxonomy general name"
+msgid "Property Feature"
+msgstr ""
+
+#: config/property-type.php:131
+msgctxt "taxonomy singular name"
+msgid "Property Feature"
+msgstr ""
+
+#: config/property-type.php:132
+msgid "Search Property Feature"
+msgstr ""
+
+#: config/property-type.php:133
+msgid "All Property Feature"
+msgstr ""
+
+#: config/property-type.php:134
+msgid "Parent Property Feature"
+msgstr ""
+
+#: config/property-type.php:135
+msgid "Parent Property Feature:"
+msgstr ""
+
+#: config/property-type.php:136
+msgid "Edit Property Feature"
+msgstr ""
+
+#: config/property-type.php:137
+msgid "Update Property Feature"
+msgstr ""
+
+#: config/property-type.php:138
+msgid "Add New Property Feature"
+msgstr ""
+
+#: config/property-type.php:139
+msgid "New Property Feature Name"
+msgstr ""
+
+#: config/property-type.php:140
+msgid "Property Feature"
+msgstr ""
+
+#: config/property-type.php:156
+msgctxt "taxonomy general name"
+msgid "Status"
+msgstr ""
+
+#: config/property-type.php:157
+msgctxt "taxonomy singular name"
+msgid "Status"
+msgstr ""
+
+#: config/property-type.php:158
+msgid "Search Status"
+msgstr ""
+
+#: config/property-type.php:159
+msgid "All Status"
+msgstr ""
+
+#: config/property-type.php:160
+msgid "Parent Status"
+msgstr ""
+
+#: config/property-type.php:161
+msgid "Parent Status:"
+msgstr ""
+
+#: config/property-type.php:162
+msgid "Edit Status"
+msgstr ""
+
+#: config/property-type.php:163
+msgid "Update Status"
+msgstr ""
+
+#: config/property-type.php:164
+msgid "Add New Status"
+msgstr ""
+
+#: config/property-type.php:165
+msgid "New Status Name"
+msgstr ""
+
+#: config/property-type.php:166
+msgid "Status"
+msgstr ""
+
+#: config/property-type.php:182
+msgctxt "taxonomy general name"
+msgid "Energy Class"
+msgstr ""
+
+#: config/property-type.php:183
+msgctxt "taxonomy singular name"
+msgid "Energy Class"
+msgstr ""
+
+#: config/property-type.php:184
+msgid "Search Energy Class"
+msgstr ""
+
+#: config/property-type.php:185
+msgid "All Energy Class"
+msgstr ""
+
+#: config/property-type.php:186
+msgid "Parent Energy Class"
+msgstr ""
+
+#: config/property-type.php:187
+msgid "Parent Energy Class:"
+msgstr ""
+
+#: config/property-type.php:188
+msgid "Edit Energy Class"
+msgstr ""
+
+#: config/property-type.php:189
+msgid "Update Energy Class"
+msgstr ""
+
+#: config/property-type.php:190
+msgid "Add New Energy Class"
+msgstr ""
+
+#: config/property-type.php:191
+msgid "New Energy Class Name"
+msgstr ""
+
+#: config/property-type.php:192
+#: views/frontend/classic/single-property/section/energy-class.php:10
+msgid "Energy Class"
+msgstr ""
+
+#: config/property-type.php:208
+msgctxt "taxonomy general name"
+msgid "Labels"
+msgstr ""
+
+#: config/property-type.php:209
+msgctxt "taxonomy singular name"
+msgid "Labels"
+msgstr ""
+
+#: config/property-type.php:210
+msgid "Search Labels"
+msgstr ""
+
+#: config/property-type.php:211
+msgid "All Labels"
+msgstr ""
+
+#: config/property-type.php:212
+msgid "Parent Labels"
+msgstr ""
+
+#: config/property-type.php:213
+msgid "Parent Labels:"
+msgstr ""
+
+#: config/property-type.php:214
+msgid "Edit Labels"
+msgstr ""
+
+#: config/property-type.php:215
+msgid "Update Labels"
+msgstr ""
+
+#: config/property-type.php:216
+msgid "Add New Labels"
+msgstr ""
+
+#: config/property-type.php:217
+msgid "New Labels Name"
+msgstr ""
+
+#: config/property-type.php:218
+msgid "Labels"
+msgstr ""
+
+#: config/property-type.php:227
+msgid "Reject"
+msgstr ""
+
+#: config/property-type.php:235
+msgid "Reject <span class=\"count\">(%s)</span>"
+msgid_plural "Reject <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: config/realpress-setting.php:21
+msgid "%s Slug:"
+msgstr ""
+
+#: config/realpress-setting.php:44
+msgid "Real Estate Settings"
+msgstr ""
+
+#: config/realpress-setting.php:45
+msgid "Settings"
+msgstr ""
+
+#: config/realpress-setting.php:58
+msgid "Currency:"
+msgstr ""
+
+#: config/realpress-setting.php:67
+msgid "Currency position:"
+msgstr ""
+
+#: config/realpress-setting.php:70
+msgid "Left ($69,69)"
+msgstr ""
+
+#: config/realpress-setting.php:71
+msgid "Right (69,69$)"
+msgstr ""
+
+#: config/realpress-setting.php:72
+msgid "Left with space ($ 69,69)"
+msgstr ""
+
+#: config/realpress-setting.php:73
+msgid "Right with space (69,69 $)"
+msgstr ""
+
+#: config/realpress-setting.php:80
+msgid "Thousands separator:"
+msgstr ""
+
+#: config/realpress-setting.php:87
+msgid "Decimals separator:"
+msgstr ""
+
+#: config/realpress-setting.php:94
+msgid "Number of decimals:"
+msgstr ""
+
+#: config/realpress-setting.php:109
+msgid "Agent List Page:"
+msgstr ""
+
+#: config/realpress-setting.php:125
+msgid "Terms and Conditions Page:"
+msgstr ""
+
+#: config/realpress-setting.php:141
+msgid "Become an Agent Page:"
+msgstr ""
+
+#: config/realpress-setting.php:157
+msgid "Wish List Page:"
+msgstr ""
+
+#: config/realpress-setting.php:174
+msgid "URL Slug"
+msgstr ""
+
+#: config/realpress-setting.php:180
+msgid "Property Slug:"
+msgstr ""
+
+#: config/realpress-setting.php:191
+msgid "Agent Slug"
+msgstr ""
+
+#: config/realpress-setting.php:236
+msgid "Property Per Page:"
+msgstr ""
+
+#: config/realpress-setting.php:239
+msgid "Number of property displayed per page"
+msgstr ""
+
+#: config/realpress-setting.php:246
+msgid "Maximum Images:"
+msgstr ""
+
+#: config/realpress-setting.php:249
+msgid "Maximum number of images allowed for gallery of single property"
+msgstr ""
+
+#: config/realpress-setting.php:256
+msgid "Maximum File Size(KB):"
+msgstr ""
+
+#: config/realpress-setting.php:259
+msgid "Maximum size of the image that can be uploaded to the property"
+msgstr ""
+
+#: config/realpress-setting.php:281
+msgid "Automatically approve:"
+msgstr ""
+
+#: config/realpress-setting.php:282
+msgid "Automatic approve the user become an Agent"
+msgstr ""
+
+#: config/realpress-setting.php:301
+msgid "Agent per page:"
+msgstr ""
+
+#: config/realpress-setting.php:304
+msgid "Number of Agent displayed per page"
+msgstr ""
+
+#: config/realpress-setting.php:311
+msgid "Avatar dimension width(px)"
+msgstr ""
+
+#: config/realpress-setting.php:313
+#: config/realpress-setting.php:323
+msgid "Example : 500 (Not include unit, space)"
+msgstr ""
+
+#: config/realpress-setting.php:321
+msgid "Avatar dimension height(px)"
+msgstr ""
+
+#: config/realpress-setting.php:403
+#: config/realpress-setting.php:414
+#: views/frontend/classic/shortcodes/advanced-search/button.php:8
+msgid "Advanced Search"
+msgstr ""
+
+#: config/realpress-setting.php:408
+#: config/realpress-setting.php:491
+#: config/realpress-setting.php:513
+msgid "Mode"
+msgstr ""
+
+#: config/realpress-setting.php:423
+#: config/widgets/agent-search.php:10
+#: config/widgets/contact-form.php:11
+#: config/widgets/mortgage-calculator.php:12
+#: config/widgets/property-list.php:13
+#: config/widgets/property-list.php:29
+#: config/widgets/schedule-tour.php:11
+#: config/widgets/terms.php:20
+msgid "Title"
+msgstr ""
+
+#: config/realpress-setting.php:453
+msgid "Min Price:"
+msgstr ""
+
+#: config/realpress-setting.php:461
+msgid "Max Price:"
+msgstr ""
+
+#: config/realpress-setting.php:469
+msgid "Redirect to Page:"
+msgstr ""
+
+#: config/realpress-setting.php:479
+msgid "If no page is selected, it will redirect to the Property Archive page "
+msgstr ""
+
+#: config/realpress-setting.php:486
+#: views/frontend/classic/single-property/section/walkscore.php:22
+msgid "Walkscore"
+msgstr ""
+
+#: config/realpress-setting.php:499
+msgid "Walkscore API"
+msgstr ""
+
+#: config/realpress-setting.php:501
+msgid "Get API <a target=\"_blank\" href=\"https://www.walkscore.com/professional/api.php\">here</a>"
+msgstr ""
+
+#: config/realpress-setting.php:508
+msgid "Yelp Nearby Places"
+msgstr ""
+
+#: config/realpress-setting.php:516
+msgid "Yelp is not working for all countries. See <a target=\"_blank\" href=\"https://www.yelp.com/locations\">here</a> the list of countries where Yelp is available."
+msgstr ""
+
+#: config/realpress-setting.php:522
+msgid "Yelp API Key"
+msgstr ""
+
+#: config/realpress-setting.php:524
+msgid "Get API key <a target=\"_blank\" href=\"https://www.yelp.com/login?return_url=%2Fdevelopers%2Fv3%2Fmanage_app\">here</a>"
+msgstr ""
+
+#: config/realpress-setting.php:530
+msgid "Yelp Categories:"
+msgstr ""
+
+#: config/realpress-setting.php:540
+msgid "Yelp Result Limit:"
+msgstr ""
+
+#: config/realpress-setting.php:549
+msgid "Yelp Distance Unit:"
+msgstr ""
+
+#: config/realpress-setting.php:552
+msgid "Miles"
+msgstr ""
+
+#: config/realpress-setting.php:553
+msgid "Km"
+msgstr ""
+
+#: config/realpress-setting.php:561
+msgid "Advanced Settings"
+msgstr ""
+
+#: config/realpress-setting.php:566
+msgid "Debug Mode:"
+msgstr ""
+
+#: config/term-metabox.php:14
+msgid "Global energy performance index"
+msgstr ""
+
+#: config/term-metabox.php:15
+#: config/term-metabox.php:23
+msgid "For example: 80.42 kWh / m²a"
+msgstr ""
+
+#: config/term-metabox.php:22
+msgid "Renewable energy performance index"
+msgstr ""
+
+#: config/term-metabox.php:30
+msgid "Energy performance of the building"
+msgstr ""
+
+#: config/term-metabox.php:37
+msgid "EPC current rating"
+msgstr ""
+
+#: config/term-metabox.php:45
+msgid "EPC potential rating"
+msgstr ""
+
+#: config/term-metabox.php:53
+#: config/term-metabox.php:62
+#: config/term-metabox.php:71
+msgid "Color"
+msgstr ""
+
+#: config/widgets/mortgage-calculator.php:18
+msgid "Default Total Amount"
+msgstr ""
+
+#: config/widgets/mortgage-calculator.php:25
+msgid "Default Down Payment"
+msgstr ""
+
+#: config/widgets/mortgage-calculator.php:32
+msgid "Default Loan Terms(Years)"
+msgstr ""
+
+#: config/widgets/mortgage-calculator.php:39
+msgid "Default Interest Rate(%)"
+msgstr ""
+
+#: config/widgets/property-list.php:19
+#: config/widgets/terms.php:33
+msgid "Number"
+msgstr ""
+
+#: config/widgets/property-list.php:26
+#: config/widgets/terms.php:40
+msgid "Order By"
+msgstr ""
+
+#: config/widgets/property-list.php:28
+msgid "Date"
+msgstr ""
+
+#: config/widgets/property-list.php:30
+msgid "Random"
+msgstr ""
+
+#: config/widgets/property-list.php:37
+#: config/widgets/terms.php:51
+msgid "Order"
+msgstr ""
+
+#: config/widgets/property-list.php:39
+#: config/widgets/terms.php:54
+msgid "DESC"
+msgstr ""
+
+#: config/widgets/property-list.php:40
+#: config/widgets/terms.php:53
+msgid "ASC"
+msgstr ""
+
+#: config/widgets/sidebars.php:7
+msgid "Single Property Sidebar"
+msgstr ""
+
+#: config/widgets/sidebars.php:8
+#: config/widgets/sidebars.php:17
+#: config/widgets/sidebars.php:26
+#: config/widgets/sidebars.php:35
+msgid "Displaying widget items on the sidebar area"
+msgstr ""
+
+#: config/widgets/sidebars.php:16
+msgid "Archive Property Sidebar"
+msgstr ""
+
+#: config/widgets/sidebars.php:25
+msgid "Agent List Sidebar"
+msgstr ""
+
+#: config/widgets/sidebars.php:34
+msgid "Agent Detail Sidebar"
+msgstr ""
+
+#: config/widgets/terms.php:26
+msgid "Taxonomy"
+msgstr ""
+
+#: config/widgets/terms.php:42
+#: views/frontend/classic/shortcodes/contact-form.php:21
+msgid "Name"
+msgstr ""
+
+#: config/widgets/terms.php:44
+msgid "Count"
+msgstr ""
+
+#: config/yelp-category.php:7
+msgid "Active Life"
+msgstr ""
+
+#: config/yelp-category.php:11
+msgid "Arts & Entertainment"
+msgstr ""
+
+#: config/yelp-category.php:15
+msgid "Automotive"
+msgstr ""
+
+#: config/yelp-category.php:19
+msgid "Beauty & Spas"
+msgstr ""
+
+#: config/yelp-category.php:23
+msgid "Education"
+msgstr ""
+
+#: config/yelp-category.php:27
+msgid "Event Planning & Services"
+msgstr ""
+
+#: config/yelp-category.php:31
+msgid "Financial Services"
+msgstr ""
+
+#: config/yelp-category.php:35
+msgid "Food"
+msgstr ""
+
+#: config/yelp-category.php:39
+msgid "Health & Medical"
+msgstr ""
+
+#: config/yelp-category.php:43
+msgid "Home Services "
+msgstr ""
+
+#: config/yelp-category.php:47
+msgid "Hotels & Travel"
+msgstr ""
+
+#: config/yelp-category.php:51
+msgid "Local Flavor"
+msgstr ""
+
+#: config/yelp-category.php:55
+msgid "Local Services"
+msgstr ""
+
+#: config/yelp-category.php:59
+msgid "Mass Media"
+msgstr ""
+
+#: config/yelp-category.php:63
+msgid "Nightlife"
+msgstr ""
+
+#: config/yelp-category.php:67
+msgid "Pets"
+msgstr ""
+
+#: config/yelp-category.php:71
+msgid "Professional Services"
+msgstr ""
+
+#: config/yelp-category.php:75
+msgid "Public Services & Government"
+msgstr ""
+
+#: config/yelp-category.php:79
+msgid "Real Estate"
+msgstr ""
+
+#: config/yelp-category.php:83
+msgid "Religious Organizations"
+msgstr ""
+
+#: config/yelp-category.php:87
+msgid "Restaurants"
+msgstr ""
+
+#: config/yelp-category.php:91
+msgid "Shopping"
+msgstr ""
+
+#: config/yelp-category.php:95
+msgid "Transportation"
+msgstr ""
+
+#: views/admin/fields/file-upload.php:95
+msgid "Remove"
+msgstr ""
+
+#: views/admin/fields/wp-dropdown-page.php:39
+msgid "Create new page"
+msgstr ""
+
+#: views/admin/fields/wp-dropdown-page.php:43
+msgid "New page title"
+msgstr ""
+
+#: views/admin/fields/wp-dropdown-page.php:45
+msgid "Confirm"
+msgstr ""
+
+#: views/admin/fields/wp-dropdown-page.php:47
+msgid "Cancel [ESC]"
+msgstr ""
+
+#: views/admin/fields/wp-dropdown-page.php:55
+#: assets/src/js/admin/mixins/wp-dropdown-page.js:84
+msgid "Edit page"
+msgstr ""
+
+#: views/admin/fields/wp-dropdown-page.php:58
+#: assets/src/js/admin/mixins/wp-dropdown-page.js:85
+msgid "View page"
+msgstr ""
+
+#: views/admin/forms/additional-fields.php:97
+#: views/admin/forms/floor-plans.php:57
+msgid "+ Add more"
+msgstr ""
+
+#: views/admin/forms/address-map.php:11
+#: views/admin/forms/taxonomy-metabox.php:29
+msgid "Search..."
+msgstr ""
+
+#: views/admin/forms/address-map.php:14
+msgid "Go"
+msgstr ""
+
+#: views/admin/forms/address-map.php:18
+msgid "Search Result"
+msgstr ""
+
+#: views/admin/forms/address-map.php:26
+msgid "Add more results"
+msgstr ""
+
+#: views/admin/forms/floor-plans.php:14
+#: assets/src/js/admin/edit-property/floor.js:99
+msgid "New Plan Title"
+msgstr ""
+
+#: views/admin/forms/taxonomy-metabox.php:50
+msgid "You only select one %s"
+msgstr ""
+
+#: views/admin/forms/taxonomy-metabox.php:59
+msgid "Add new %s"
+msgstr ""
+
+#: views/admin/import-demo.php:4
+msgid "Welcome To Import Demo"
+msgstr ""
+
+#: views/admin/import-demo.php:6
+msgid "Import"
+msgstr ""
+
+#: views/admin/settings.php:79
+msgid "Save Changes"
+msgstr ""
+
+#: views/admin/setup/content.php:35
+msgid "Previous"
+msgstr ""
+
+#: views/admin/setup/content.php:46
+msgid "Continue"
+msgstr ""
+
+#: views/admin/setup/footer.php:2
+msgid "RealPress %s. Designed by @ThimPress."
+msgstr ""
+
+#: views/admin/setup/footer.php:3
+msgid "Back to Dashboard"
+msgstr ""
+
+#: views/admin/setup/header.php:6
+msgid "RealPress &rsaquo; Setup Wizard"
+msgstr ""
+
+#: views/admin/setup/notice-setup.php:2
+msgid "<strong>RealPress is ready to use.</strong>"
+msgstr ""
+
+#: views/admin/setup/notice-setup.php:5
+msgid "Quick Setup"
+msgstr ""
+
+#: views/admin/setup/notice-setup.php:7
+msgid "Skip"
+msgstr ""
+
+#: views/admin/setup/steps/currency.php:8
+msgid "Currency Settings"
+msgstr ""
+
+#: views/admin/setup/steps/email.php:8
+msgid "Email Settings"
+msgstr ""
+
+#: views/admin/setup/steps/email.php:15
+msgid "Admin"
+msgstr ""
+
+#: views/admin/setup/steps/email.php:16
+msgid "User"
+msgstr ""
+
+#: views/admin/setup/steps/finish.php:14
+msgid "RealPress is ready!"
+msgstr ""
+
+#: views/admin/setup/steps/finish.php:18
+msgid "More Settings"
+msgstr ""
+
+#: views/admin/setup/steps/finish.php:21
+msgid "Add a new property"
+msgstr ""
+
+#: views/admin/setup/steps/finish.php:24
+#: views/frontend/classic/archive-property/content.php:24
+msgid "Archive Properties"
+msgstr ""
+
+#: views/admin/setup/steps/finish.php:28
+msgid "Import Demo"
+msgstr ""
+
+#: views/admin/setup/steps/page.php:8
+msgid "Static Pages"
+msgstr ""
+
+#: views/admin/setup/steps/page.php:9
+msgid "The pages will display content of RealPress necessary pages, such as: Agent List, Become an Agent"
+msgstr ""
+
+#: views/admin/setup/steps/page.php:12
+msgid "Create all static pages"
+msgstr ""
+
+#: views/admin/setup/steps/property.php:8
+msgid "Property Settings"
+msgstr ""
+
+#: views/admin/setup/steps/slug.php:8
+msgid "Slug Settings"
+msgstr ""
+
+#: views/admin/setup/welcome.php:7
+msgid "Welcome to RealPress"
+msgstr ""
+
+#: views/admin/setup/welcome.php:9
+msgid "Thanks for using RealPress!"
+msgstr ""
+
+#: views/admin/setup/welcome.php:11
+msgid "The following wizard will help you configure site and get you started quickly."
+msgstr ""
+
+#: views/admin/setup/welcome.php:21
+msgid "Let's Start"
+msgstr ""
+
+#: views/admin/setup/welcome.php:23
+msgid "Skip Setup Wizard"
+msgstr ""
+
+#: views/frontend/classic/agent-detail/about.php:7
+msgid "About %s"
+msgstr ""
+
+#: views/frontend/classic/agent-detail/agent-profile.php:20
+#: views/frontend/classic/agent-list/agent-item.php:46
+#: views/frontend/classic/shared/single-property/contact-form.php:78
+msgid "Company Agent at "
+msgstr ""
+
+#: views/frontend/classic/agent-detail/agent-profile.php:31
+msgid "Agent License"
+msgstr ""
+
+#: views/frontend/classic/agent-detail/agent-profile.php:63
+msgid "Send Email"
+msgstr ""
+
+#: views/frontend/classic/agent-detail/agent-profile.php:64
+msgid "Call %s"
+msgstr ""
+
+#: views/frontend/classic/agent-detail/agent-profile.php:69
+msgid "See all comments"
+msgstr ""
+
+#: views/frontend/classic/agent-detail/agent-property-comment-group.php:16
+msgid "Property(%s)"
+msgstr ""
+
+#: views/frontend/classic/agent-detail/agent-property-comment-group.php:19
+msgid "Comment(%s)"
+msgstr ""
+
+#: views/frontend/classic/agent-detail/agent-property-comment-group.php:29
+msgid "No properties"
+msgstr ""
+
+#: views/frontend/classic/agent-detail/agent-property-comment-group.php:31
+#: views/frontend/classic/agent-list/agent-item.php:90
+msgid "%s Property"
+msgid_plural "%s Properties"
+msgstr[0] ""
+msgstr[1] ""
+
+#: views/frontend/classic/agent-detail/agent-property-comment-group.php:59
+msgid "No Comments"
+msgstr ""
+
+#: views/frontend/classic/agent-detail/agent-property-comment-group.php:61
+msgid "%s Comment"
+msgid_plural "%s Comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: views/frontend/classic/agent-detail/agent-property-comment-group.php:72
+#: views/frontend/classic/agent-detail/comments/form.php:9
+msgid "Leave a comment"
+msgstr ""
+
+#: views/frontend/classic/agent-detail/comments/comment-item.php:25
+#: views/frontend/classic/single-property/reviews/list-review.php:29
+msgid "Posted by "
+msgstr ""
+
+#: views/frontend/classic/agent-detail/comments/form.php:14
+msgid "Comment *"
+msgstr ""
+
+#: views/frontend/classic/agent-detail/comments/form.php:16
+msgid "Write a comment"
+msgstr ""
+
+#: views/frontend/classic/agent-detail/comments/form.php:20
+msgid "Post comment"
+msgstr ""
+
+#: views/frontend/classic/agent-detail/comments/form.php:32
+msgid "You need to login in order to post a comment. Please click <a href=\"%s\">here</a> to login"
+msgstr ""
+
+#: views/frontend/classic/agent-detail/content.php:37
+msgid "Agent details"
+msgstr ""
+
+#: views/frontend/classic/agent-detail/property-item.php:88
+msgid "No Bed"
+msgstr ""
+
+#: views/frontend/classic/agent-detail/property-item.php:90
+#: views/frontend/classic/archive-property/property-item.php:90
+#: views/frontend/classic/single-property/section/similar-property-item.php:91
+#: views/frontend/classic/wishlist/property-item.php:90
+msgid "%s Bed"
+msgid_plural "%s Beds"
+msgstr[0] ""
+msgstr[1] ""
+
+#: views/frontend/classic/agent-detail/property-item.php:98
+msgid "No Bath"
+msgstr ""
+
+#: views/frontend/classic/agent-detail/property-item.php:100
+#: views/frontend/classic/archive-property/property-item.php:100
+#: views/frontend/classic/single-property/section/similar-property-item.php:95
+#: views/frontend/classic/wishlist/property-item.php:100
+msgid "%s Bath"
+msgid_plural "%s Baths"
+msgstr[0] ""
+msgstr[1] ""
+
+#: views/frontend/classic/agent-detail/property-item.php:106
+#: views/frontend/classic/archive-property/property-item.php:106
+#: views/frontend/classic/wishlist/property-item.php:106
+msgid "%1$s %2$s"
+msgstr ""
+
+#: views/frontend/classic/agent-list/agent-item.php:60
+msgid "Office:"
+msgstr ""
+
+#: views/frontend/classic/agent-list/agent-item.php:68
+msgid "Email:"
+msgstr ""
+
+#: views/frontend/classic/agent-list/agent-item.php:76
+msgid "Mobile:"
+msgstr ""
+
+#: views/frontend/classic/agent-list/agent-item.php:85
+msgid "View Detail"
+msgstr ""
+
+#: views/frontend/classic/agent-list/agent-item.php:92
+msgid "No Properties"
+msgstr ""
+
+#: views/frontend/classic/agent-list/content.php:20
+#: assets/src/js/admin/setup/pages.js:29
+msgid "Agent List"
+msgstr ""
+
+#: views/frontend/classic/agent-list/sort-by.php:15
+#: views/frontend/classic/shared/property-sort.php:31
+msgid "Name (A->Z)"
+msgstr ""
+
+#: views/frontend/classic/agent-list/sort-by.php:16
+#: views/frontend/classic/shared/property-sort.php:32
+msgid "Name (Z->A)"
+msgstr ""
+
+#: views/frontend/classic/archive-property/property-item.php:88
+#: views/frontend/classic/wishlist/property-item.php:88
+msgid "No Beds"
+msgstr ""
+
+#: views/frontend/classic/archive-property/property-item.php:98
+#: views/frontend/classic/wishlist/property-item.php:98
+msgid "No Baths"
+msgstr ""
+
+#: views/frontend/classic/shared/breadcrumb.php:12
+msgid "Home"
+msgstr ""
+
+#: views/frontend/classic/shared/property-sort.php:30
+#: views/frontend/classic/single-property/reviews/sort-by.php:5
+msgid "Default Order"
+msgstr ""
+
+#: views/frontend/classic/shared/property-sort.php:33
+msgid "Price (High to Low)"
+msgstr ""
+
+#: views/frontend/classic/shared/property-sort.php:34
+msgid "Price (Low to High)"
+msgstr ""
+
+#: views/frontend/classic/shared/property-sort.php:35
+#: views/frontend/classic/single-property/reviews/sort-by.php:7
+msgid "Rating (High to Low)"
+msgstr ""
+
+#: views/frontend/classic/shared/property-sort.php:36
+#: views/frontend/classic/single-property/reviews/sort-by.php:6
+msgid "Rating (Low to High)"
+msgstr ""
+
+#: views/frontend/classic/shared/single-property/contact-form.php:95
+msgid "View detail"
+msgstr ""
+
+#: views/frontend/classic/shared/single-property/energy-class.php:28
+msgid "Energy class:"
+msgstr ""
+
+#: views/frontend/classic/shared/single-property/energy-class.php:32
+msgid "Global Energy Performance Index:"
+msgstr ""
+
+#: views/frontend/classic/shared/single-property/energy-class.php:42
+msgid "Renewable energy performance index:"
+msgstr ""
+
+#: views/frontend/classic/shared/single-property/energy-class.php:52
+msgid "Energy performance of the building:"
+msgstr ""
+
+#: views/frontend/classic/shared/single-property/energy-class.php:62
+msgid "EPC Current Rating:"
+msgstr ""
+
+#: views/frontend/classic/shared/single-property/energy-class.php:72
+msgid "EPC Potential Rating:"
+msgstr ""
+
+#: views/frontend/classic/shared/single-property/energy-class.php:91
+msgid "%1$s | Energy class %2$s"
+msgstr ""
+
+#: views/frontend/classic/shared/single-property/view-count.php:2
+msgid "Views: 188"
+msgstr ""
+
+#: views/frontend/classic/shortcodes/advanced-search/button.php:13
+msgid "Search"
+msgstr ""
+
+#: views/frontend/classic/shortcodes/advanced-search/energy-class.php:9
+msgid "Select Energy Class..."
+msgstr ""
+
+#: views/frontend/classic/shortcodes/advanced-search/feature.php:9
+msgid "Select Feature..."
+msgstr ""
+
+#: views/frontend/classic/shortcodes/advanced-search/labels.php:9
+msgid "Select Label..."
+msgstr ""
+
+#: views/frontend/classic/shortcodes/advanced-search/location.php:9
+msgid "Select Location..."
+msgstr ""
+
+#: views/frontend/classic/shortcodes/advanced-search/price.php:19
+msgid "%1$s-%2$s"
+msgstr ""
+
+#: views/frontend/classic/shortcodes/advanced-search/status.php:9
+msgid "Select Status..."
+msgstr ""
+
+#: views/frontend/classic/shortcodes/advanced-search/title.php:9
+msgid "Enter your keyword here..."
+msgstr ""
+
+#: views/frontend/classic/shortcodes/advanced-search/type.php:9
+msgid "Select Type..."
+msgstr ""
+
+#: views/frontend/classic/shortcodes/become-an-agent.php:15
+msgid "Please <a href=\"%s\">login</a> to send your request!"
+msgstr ""
+
+#: views/frontend/classic/shortcodes/become-an-agent.php:25
+msgid "You are an Agent!"
+msgstr ""
+
+#: views/frontend/classic/shortcodes/become-an-agent.php:27
+msgid "Your have already sent the request. Please wait for approvement."
+msgstr ""
+
+#: views/frontend/classic/shortcodes/become-an-agent.php:32
+msgid "First Name *"
+msgstr ""
+
+#: views/frontend/classic/shortcodes/become-an-agent.php:34
+msgid "First name"
+msgstr ""
+
+#: views/frontend/classic/shortcodes/become-an-agent.php:37
+msgid "Last Name *"
+msgstr ""
+
+#: views/frontend/classic/shortcodes/become-an-agent.php:39
+msgid "Last name"
+msgstr ""
+
+#: views/frontend/classic/shortcodes/become-an-agent.php:42
+msgid "Agency Name"
+msgstr ""
+
+#: views/frontend/classic/shortcodes/become-an-agent.php:44
+msgid "Agency name"
+msgstr ""
+
+#: views/frontend/classic/shortcodes/become-an-agent.php:47
+msgid "Phone Number *"
+msgstr ""
+
+#: views/frontend/classic/shortcodes/become-an-agent.php:49
+msgid "Phone Number"
+msgstr ""
+
+#: views/frontend/classic/shortcodes/become-an-agent.php:52
+#: views/frontend/classic/shortcodes/become-an-agent.php:54
+msgid "Additional Information"
+msgstr ""
+
+#: views/frontend/classic/shortcodes/become-an-agent.php:63
+#: views/frontend/classic/shortcodes/contact-form.php:41
+msgid "I agree to&nbsp;<a target=\"_blank\" href=\"%s\">Terms and Conditions</a>"
+msgstr ""
+
+#: views/frontend/classic/shortcodes/become-an-agent.php:69
+msgid "Submit"
+msgstr ""
+
+#: views/frontend/classic/shortcodes/contact-form.php:24
+msgid "Phone"
+msgstr ""
+
+#: views/frontend/classic/shortcodes/contact-form.php:53
+msgid "Send Message"
+msgstr ""
+
+#: views/frontend/classic/shortcodes/contact-form.php:59
+msgid "Call"
+msgstr ""
+
+#: views/frontend/classic/shortcodes/header-map.php:14
+#: views/frontend/classic/shortcodes/search-with-map.php:16
+msgid "Properties"
+msgstr ""
+
+#: views/frontend/classic/single-property/reviews/form.php:9
+msgid "Leave a review"
+msgstr ""
+
+#: views/frontend/classic/single-property/reviews/form.php:14
+msgid "Rating"
+msgstr ""
+
+#: views/frontend/classic/single-property/reviews/form.php:25
+msgid "Review *"
+msgstr ""
+
+#: views/frontend/classic/single-property/reviews/form.php:27
+msgid "Write a review"
+msgstr ""
+
+#: views/frontend/classic/single-property/reviews/form.php:31
+msgid "Submit Review"
+msgstr ""
+
+#: views/frontend/classic/single-property/reviews/form.php:43
+msgid "You need to login in order to post a review. Please click <a href=\"%s\">here</a> to login"
+msgstr ""
+
+#: views/frontend/classic/single-property/reviews/total.php:10
+msgid "No Reviews"
+msgstr ""
+
+#: views/frontend/classic/single-property/reviews/total.php:12
+msgid "%s Review"
+msgid_plural "%s Reviews"
+msgstr[0] ""
+msgstr[1] ""
+
+#: views/frontend/classic/single-property/section/address-location.php:32
+msgid "Location"
+msgstr ""
+
+#: views/frontend/classic/single-property/section/detail.php:11
+msgid "Details"
+msgstr ""
+
+#: views/frontend/classic/single-property/section/features.php:10
+msgid "Featured"
+msgstr ""
+
+#: views/frontend/classic/single-property/section/floor-plans.php:14
+msgid "Floor Plans"
+msgstr ""
+
+#: views/frontend/classic/single-property/section/floor-plans.php:32
+msgid "Size"
+msgstr ""
+
+#: views/frontend/classic/single-property/section/mortgage-calculator.php:28
+msgid "Mortgage Calculator"
+msgstr ""
+
+#: views/frontend/classic/single-property/section/mortgage-calculator.php:34
+msgid "Monthly"
+msgstr ""
+
+#: views/frontend/classic/single-property/section/mortgage-calculator.php:42
+msgid "Principle & Interest"
+msgstr ""
+
+#: views/frontend/classic/single-property/section/mortgage-calculator.php:47
+msgid "Property Tax"
+msgstr ""
+
+#: views/frontend/classic/single-property/section/mortgage-calculator.php:53
+msgid "Home Insurance"
+msgstr ""
+
+#: views/frontend/classic/single-property/section/mortgage-calculator.php:59
+msgid "PMI"
+msgstr ""
+
+#: views/frontend/classic/single-property/section/mortgage-calculator.php:69
+#: views/frontend/classic/single-property/section/mortgage-calculator.php:75
+msgid "Total Amount(Monthly)"
+msgstr ""
+
+#: views/frontend/classic/single-property/section/mortgage-calculator.php:80
+#: views/frontend/classic/single-property/section/mortgage-calculator.php:86
+#: views/frontend/classic/widgets/mortgage-calculator.php:16
+msgid "Down Payment"
+msgstr ""
+
+#: views/frontend/classic/single-property/section/mortgage-calculator.php:92
+#: views/frontend/classic/single-property/section/mortgage-calculator.php:98
+msgid "Loan Terms (Years)"
+msgstr ""
+
+#: views/frontend/classic/single-property/section/mortgage-calculator.php:104
+#: views/frontend/classic/single-property/section/mortgage-calculator.php:110
+msgid "Property Tax(Yearly)"
+msgstr ""
+
+#: views/frontend/classic/single-property/section/mortgage-calculator.php:116
+#: views/frontend/classic/single-property/section/mortgage-calculator.php:122
+msgid "PMI(Monthly)"
+msgstr ""
+
+#: views/frontend/classic/single-property/section/mortgage-calculator.php:128
+#: views/frontend/classic/single-property/section/mortgage-calculator.php:134
+msgid "Interest Rate"
+msgstr ""
+
+#: views/frontend/classic/single-property/section/mortgage-calculator.php:140
+#: views/frontend/classic/single-property/section/mortgage-calculator.php:146
+msgid "Home Insurance(Yearly)"
+msgstr ""
+
+#: views/frontend/classic/single-property/section/mortgage-calculator.php:152
+#: views/frontend/classic/widgets/mortgage-calculator.php:29
+msgid "Calculate"
+msgstr ""
+
+#: views/frontend/classic/single-property/section/overview.php:12
+msgid "Overview"
+msgstr ""
+
+#: views/frontend/classic/single-property/section/reviews.php:22
+msgid "(%s out of 5)"
+msgstr ""
+
+#: views/frontend/classic/single-property/section/reviews.php:31
+msgid "Leave a Review"
+msgstr ""
+
+#: views/frontend/classic/single-property/section/similar-property.php:5
+msgid "Similar Property"
+msgstr ""
+
+#: views/frontend/classic/single-property/section/yelp-near-by.php:68
+msgid "( %1$s %2$s )"
+msgstr ""
+
+#: views/frontend/classic/single-property/section/yelp-near-by.php:85
+msgid "%d reviews"
+msgstr ""
+
+#: views/frontend/classic/widgets/agent-search.php:10
+msgid "Enter Agent name"
+msgstr ""
+
+#: views/frontend/classic/widgets/agent-search.php:13
+msgid "Enter Agent company name"
+msgstr ""
+
+#: views/frontend/classic/widgets/agent-search.php:14
+msgid "Search Agent"
+msgstr ""
+
+#: views/frontend/classic/widgets/mortgage-calculator.php:12
+msgid "Total Amount"
+msgstr ""
+
+#: views/frontend/classic/widgets/mortgage-calculator.php:20
+msgid "Loan Terms(Year)"
+msgstr ""
+
+#: views/frontend/classic/widgets/mortgage-calculator.php:24
+msgid "Interest Rate(%)"
+msgstr ""
+
+#: views/frontend/classic/widgets/mortgage-calculator.php:30
+msgid "Reset Form"
+msgstr ""
+
+#: views/frontend/classic/widgets/mortgage-calculator.php:35
+msgid "Principle Amount"
+msgstr ""
+
+#: views/frontend/classic/widgets/mortgage-calculator.php:39
+msgid "Years"
+msgstr ""
+
+#: views/frontend/classic/widgets/mortgage-calculator.php:43
+msgid "Monthly Payment"
+msgstr ""
+
+#: views/frontend/classic/widgets/mortgage-calculator.php:47
+msgid "Balance Payable With Interest"
+msgstr ""
+
+#: views/frontend/classic/widgets/mortgage-calculator.php:51
+msgid "Total With Down Payment"
+msgstr ""
+
+#: assets/src/js/admin/edit-property/map.js:130
+msgid "No results were found"
+msgstr ""
+
+#: assets/src/js/admin/setup/pages.js:34
+msgid "Terms and Conditions"
+msgstr ""
+
+#: assets/src/js/admin/setup/pages.js:39
+msgid "Become an Agent"
+msgstr ""
+
+#: assets/src/js/admin/setup/pages.js:44
+msgid "WishList"
+msgstr ""
+
+#: assets/src/js/frontend/single-property/mortgage-calculator.js:45
+#: assets/src/js/frontend/widgets/mortgage-calculator.js:57
+msgid "Please fill out all fields"
+msgstr ""
+
+#: assets/src/js/mixins/media.js:17
+msgid "Select Images"
+msgstr ""
+
+#: assets/src/js/mixins/media.js:18
+msgid "Use these images"
+msgstr ""
+
+#: assets/src/js/admin/block/legacy-template/archive/block.json
+msgctxt "block title"
+msgid "Archive Property"
+msgstr ""
+
+#: assets/src/js/admin/block/legacy-template/archive/block.json
+#: assets/src/js/admin/block/list-properties/block.json
+msgctxt "block description"
+msgid "Renders legacy Thim Real Estate Archive property PHP templates."
+msgstr ""
+
+#: assets/src/js/admin/block/legacy-template/archive/block.json
+#: assets/src/js/admin/block/legacy-template/single/block.json
+msgctxt "block keyword"
+msgid "single property"
+msgstr ""
+
+#: assets/src/js/admin/block/legacy-template/archive/block.json
+#: assets/src/js/admin/block/legacy-template/single/block.json
+msgctxt "block keyword"
+msgid "thim realpress"
+msgstr ""
+
+#: assets/src/js/admin/block/legacy-template/single/block.json
+msgctxt "block title"
+msgid "Single Property"
+msgstr ""
+
+#: assets/src/js/admin/block/legacy-template/single/block.json
+msgctxt "block description"
+msgid "Renders legacy Thim Real Estate Single property PHP templates."
+msgstr ""
+
+#: assets/src/js/admin/block/list-properties/block.json
+msgctxt "block title"
+msgid "List Properties"
+msgstr ""
+
+#: assets/src/js/admin/block/property/price/block.json
+msgctxt "block title"
+msgid "Price Property"
+msgstr ""
+
+#: assets/src/js/admin/block/property/price/block.json
+msgctxt "block description"
+msgid "Display property price."
+msgstr ""
+
+#: assets/src/js/admin/block/property/title/block.json
+msgctxt "block title"
+msgid "Property Title"
+msgstr ""
+
+#: assets/src/js/admin/block/property/title/block.json
+msgctxt "block description"
+msgid "Display property title."
+msgstr ""

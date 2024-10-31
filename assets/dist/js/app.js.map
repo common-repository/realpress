@@ -1,0 +1,1 @@
+{"version":3,"file":"app.js","mappings":";;;;;AAAA,MAAMA,IAAY,GAAG,aAArB;AAEAC,OAAO,CAACC,GAAR,CAAYF,IAAZ,E","sources":["webpack://realpress/./assets/src/app/App.tsx"],"sourcesContent":["const test: string = 'Hello world';\r\n\r\nconsole.log(test);\r\n"],"names":["test","console","log"],"sourceRoot":""}
